@@ -1,4 +1,4 @@
-class Student {
+/*class Student {
     String name;
       int marks;
 
@@ -6,18 +6,18 @@ class Student {
         this.name = name;
         this.marks = marks;
     }
-}
+}*/
 
 public class Main8 {
     public static void main(String[] args) {
-        Student student = new Student("James", 25);
+        /*Student student = new Student("James", 25);
         int marks = 25;
         review(student, marks);
-        System.out.println(marks + "-" + student.marks);
+        System.out.println(marks + "-" + student.marks);*/
     }
 
     private static void review(Student stud, int marks) {
-        marks = marks + 10;
-        stud.marks+=marks;
+        /*marks = marks + 10;
+        stud.marks+=marks;*/
     }
 }
